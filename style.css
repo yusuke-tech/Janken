@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.wrap {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.command_wrap {
+	text-align: center;
+}
+.command {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.light ul {
+	text-align: center;
+
+}
+.light ul li {
+	display: inline-block;
+	background: url(light_none.png);
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+.table {
+	background: url(command.png);
+	width: 200px;
+	height: 200px;
+	margin: 10px auto;
+}
+.table_command {
+	width: 200px;
+	height: 200px;
+}
+
+#myself .command {
+	cursor: pointer;
+}
